@@ -4,7 +4,7 @@ module.exports = gql`
   type Podcast {
     id: ID!
     name: String!
-    url: String!
+    url: String! 
   }
   input CreatePodcastInput {
     name: String!
